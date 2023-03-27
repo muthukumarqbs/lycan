@@ -296,6 +296,9 @@ header .nav-link:hover {
 .event-segment{
     height: 230px;
 }
+::placeholder{
+    font-size: 14px;
+}
 @media screen and (max-width:1200px){
     header .nav-link {
         padding: 8px !important;

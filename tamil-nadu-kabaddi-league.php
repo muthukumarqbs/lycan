@@ -12,7 +12,6 @@
                 <p class="text-justify">TKL has drawn 30 million viewers across India, with two million viewers in Tamilnadu alone. The objective is to create opportunities for young and emerging talents in Tamilnadu and provide platform for them to show case their skills. We provided with tremendous exit sure by interaction with world class league.</p>
             </div>
         </div>
-
         <div class="title mt-5 mb-3">Namma Kabaddi</div>
         <p class="text-justify">Tamilnadu has rich history in sports for both traditional as well as foreign sports, kabaddi takes the honor for being the state sport. It's derived from the Tamil word 'kai-pudi', meaning to hold hands'.</p>
         <div class="row mt-3">
@@ -47,7 +46,7 @@
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 mb-lg-0 mb-4">
                 <div class="value-box">
-                    <a href="" class="h3 text-danger mb-0"><i class="fa fa-youtube-play"></i></a>
+                    <a href="#" class="h3 text-danger mb-0"><i class="fa fa-youtube-play"></i></a>
                     <div class="display-4 text-danger mt-3 mb-2">10K+</div>
                     <div class="font16 text-capitalize">Views</div>
                 </div>
@@ -61,13 +60,12 @@
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="value-box">
-                    <a href="" class="h3 mb-0 text-info"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="h3 mb-0 text-info"><i class="fa fa-twitter"></i></a>
                     <div class="display-4 text-danger mt-3 mb-2">5K+</div>
                     <div class="font16 text-capitalize">followers</div>
                 </div>
             </div>
         </div>
-
     </div>
 </section>
 
