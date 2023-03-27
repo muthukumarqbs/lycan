@@ -172,3 +172,7 @@
 </section>
 
 <?php include 'includes/footer.php'; ?>
+<script>banner();</script>
+</body>
+</html>
+

@@ -27,7 +27,7 @@
         <li><a target="_blank" href="https://wa.me/9884914447"><i class="fa fa-whatsapp"></i></a></li>
         <li><a target="_blank" href="https://www.instagram.com"><i class="fa fa-instagram"></i></a></li>
       </ul>
-      <ul class="flex d-md-flex d-none">
+      <ul class="flex top-links d-lg-flex d-none">
         <li><a class="nav-link" href="leaders-magazine.php">Leaders Magazine</a></li>
         <li><a class="nav-link" href="clients.php">Clients</a></li>
         <li><a class="nav-link" href="contacts.php">Contact</a></li>  
@@ -37,14 +37,14 @@
     <nav class="navbar navbar-expand-lg bg-light">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <i class="fa fa-bars"></i>
-      </button>
+      </button> 
       <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
         <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link active" href="index.php">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="who-we-are.php">Who we are</a>
+            <a class="nav-link" href="who-we-are.php">Who we are</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="what-we-do.php">What we do</a>
@@ -60,8 +60,11 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="our-events.php">Our Events</a>
-          </li>
-      
+          </li>      
+          <li class="d-lg-none"><a class="nav-link" href="leaders-magazine.php">Leaders Magazine</a></li>
+          <li class="d-lg-none"><a class="nav-link" href="clients.php">Clients</a></li>
+          <li class="d-lg-none"><a class="nav-link" href="contacts.php">Contact</a></li>  
+          <li class="d-lg-none"><a class="btn btn-success mb-3 px-3 rounded-pill" href="request-a-quotes.php">Request a Quotes</a></li>
         </ul>
       </div>
     </nav>

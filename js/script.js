@@ -79,18 +79,7 @@ window.addEventListener('scroll', function(event){
     }
 });
 
-var blinkIndex = 0;
 
-function blink() {
-    if (blinkIndex >= 1) {
-        blinkIndex = 0;
-    } else {
-        blinkIndex++;
-    }
-    $('.banImg').removeClass('active');
-    $('.banImg').eq(blinkIndex).addClass('active');
-}
-setInterval(blink, 3000);
 
 $('.readmore').each(function(){
     if($(this).text().length > $(this).attr('data-read')){
@@ -147,3 +136,17 @@ $('.readpara').each(function(){
     }
 });
 
+function banner(){
+    var blinkIndex = 0;
+    let allbg = document.querySelectorAll('.banImg');
+    setInterval(() => {
+        document.querySelector('.banImg.active').classList.remove('active');
+        if (blinkIndex >= allbg.length-1) {
+            blinkIndex = 0;
+            allbg[blinkIndex].classList.add('active');        
+        } else {
+            blinkIndex++;
+            allbg[blinkIndex].classList.add('active');
+        }
+    }, 3000);
+}
